@@ -1,78 +1,79 @@
 @charset "utf-8";
-@font-face{
-    font-family:'Vazir';
-    src:url(https://shahrbaharnarenj.ir/files/fonts/Vazir.eot) format('eot') , url(https://shahrbaharnarenj.ir/files/fonts/Vazir.ttf) format('ttf') , url(https://shahrbaharnarenj.ir/files/fonts/Vazir.woff) format('woff') , url(https://shahrbaharnarenj.ir/files/fonts/Vazir.woff2) format('woff2');
-    font-weight:normal
+/* CSS Document */
+@font-face {
+	font-family: 'Vazir';
+	src: url('https://hspr.ir/assets/files/fonts/Vazir.eot') format('eot'), url('https://hspr.ir/assets/files/fonts/Vazir.ttf') format('ttf'), url('https://hspr.ir/assets/files/fonts/Vazir.woff') format('woff'), url('https://hspr.ir/assets/files/fonts/Vazir.woff2') format('woff2');
+	font-weight: normal;
 }
-body{
-    font-family:Vazir;
-    background-color:#1a1a1a;
-    color:#e0e0e0
+body {
+	font-family: Vazir;
+	background-color: #1a1a1a;
+	color: #e0e0e0;
 }
-@media screen and (min-width:768px){
-    .text-content{
-        width:45%
+@media screen and (min-width: 768px) {
+    .text-content {
+        width: 45%;
     }
-    .title-text{
-        width:45%
+    .title-text {
+        width: 45%;
     }
-    .img-post{
-        width:45%
+    .img-post {
+        width: 45%;
     }
-    .title-top{
-        margin-right:25%;
-        margin-top:25px
+	.title-top {
+		margin-right: 25%;
+		margin-top: 25px;
+	}
+	.menu-top {
+		margin-left: 25%;
+		margin-top: 45px;
+	}
+}
+@media screen and (max-width: 767px) {
+    .text-content {
+        width: 100%;
     }
-    .menu-top{
-        margin-left:25%;
-        margin-top:45px
+    .title-text {
+        width: 100%;
     }
-}
-@media screen and (max-width:767px){
-    .text-content{
-        width:100%
+    .img-post {
+        width: 100%;
     }
-    .title-text{
-        width:100%
-    }
-    .img-post{
-        width:100%
-    }
-    .title-top{
-        margin-right:1%;
-        margin-top:15px
-    }
-    .menu-top{
-        margin-left:1%;
-        margin-top:25px
-    }
+	.title-top {
+		margin-right: 1%;
+		margin-top: 15px;
+	}
+	.menu-top {
+		margin-left: 1%;
+		margin-top: 25px;
+	}
 }
-.title-top{
-    float:right
+.title-top {
+	float: right;
 }
-.menu-top{
-    list-style:none;
-    float:left
+.menu-top {
+	list-style: none;
+	float: left;
 }
-.post{
-    font-size:18px;
-    padding:15px
+.post {
+	font-size: 18px;
+	padding: 15px;
 }
-.img-post{
-    border-radius:25px
+.img-post {
+	border-radius: 25px;
 }
-.title-text{
-    text-align:right
+.title-text {
+	text-align: right;
 }
-.text-content{
-    text-align:justify;
-    line-height:35px
+.text-content {
+	text-align: justify;
+	line-height: 35px;
 }
-.link-in-text{
-    text-decoration:none;
-    color:#2980b9
+.link-in-text {
+    text-decoration: none;
+    color: #2980b9;
 }
-.link-without-ctb{
-    text-decoration:none;
-    color:#e0e0e0
+.link-without-ctb {
+	text-decoration: none;
+	color: #e0e0e0;
 }
